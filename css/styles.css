@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  height: 100vh;
+  overflow: hidden; /* Desativa a rolagem */
+}
+
+.sidebar {
+  width: 250px;
+  background: linear-gradient(200deg, #87CEEB, #FFB6C1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  height: 100%;
+  overflow: auto;
+  position: relative; /* Para garantir que elementos dentro da sidebar sejam posicionados corretamente */
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.time {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: #000;
+  font-weight: bold;
+}
+
+.qr-code img {
+  max-width: 100%; 
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#edital-text {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.qr-code-string {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.github {
+  display: flex;
+  align-items: center; /* Alinha verticalmente os itens no centro */
+  gap: 8px; /* Espaço entre o texto e o ícone */
+  margin-top: 20px; /* Margem superior para separar dos outros elementos */
+}
+
+.github a {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Remove a sublinhado dos links */
+  color: inherit; /* Usa a cor padrão de texto */
+  font-weight: bold;
+}
+
+.github p {
+  margin: 0; /* Remove a margem padrão do parágrafo */
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 1rem; /* Tamanho da fonte do texto */
+  color: #000; /* Cor do texto */
+}
+
+.github img {
+  width: 25px; /* Largura do ícone */
+  height: 25px; /* Altura do ícone */
+  opacity: 1; /* Transparência do ícone */
+}
+
+.tribunal {
+  font-size: 1.4rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
